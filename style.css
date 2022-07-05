@@ -38,7 +38,7 @@ a {
     color: white;
     width: flex;
     height: 800px;
-    background-image: url(/images/cover.png);
+    background-image: url(images/cover.png);
     background-repeat: no-repeat;
     background-position: center;
 }
