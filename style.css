@@ -3,8 +3,36 @@ body {
 }
 
 h1 {
+    color: white;
     font-weight: 700;
     font-size: 65px;
     line-height: 79px;
     text-align: center;
+    padding-top: 180px;
+}
+
+p {
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.header-text {
+    width: flex;
+    height: 800px;
+    background-image: url(/images/cover.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
