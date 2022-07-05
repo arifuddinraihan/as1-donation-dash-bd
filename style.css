@@ -2,20 +2,20 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-h1 {
+.header-text h1 {
     font-weight: 700;
     font-size: 65px;
     line-height: 79px;
-    padding-top: 180px;
+    padding-top: 200px;
 }
 
-p {
+.header-text p {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 25px;
 }
 
-h3 {
+.header-text h3 {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 25px;
@@ -41,4 +41,84 @@ a {
     background-image: url(images/cover.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.donate-today h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+}
+
+.donate-today {
+    padding-top: 100px 0px 100px 0px;
+}
+
+.donate-today p {
+    font-family: 'Poppins';
+    color: #707070;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.taka {
+    display: flex;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.taka div h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.box-taka {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+.container {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Inter';
+
+}
+
+#input-taka {
+    border: none;
+    font-family: 'Poppins';
+    color: #B3B3B3;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.container hr {
+    width: 765px;
+    border: 1px solid #DADADA;
+}
+
+.div-button {
+    padding-top: 20px;
+}
+
+#button {
+    font-family: 'Inter';
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #FF5959;
+    border-color: #FF5959;
+    border-radius: 10px;
+    padding: 25px 20px;
 }
