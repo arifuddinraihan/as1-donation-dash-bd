@@ -203,3 +203,21 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+.news-top {
+    text-align: center;
+    text-decoration: none;
+}
+
+.news-section {
+    display: flex;
+    width: 80px;
+}
+
+.container-news {
+    display: flex;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Inter';
+
+}
