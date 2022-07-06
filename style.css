@@ -86,6 +86,7 @@ body {
     border: 2px solid #FF5959;
     border-radius: 5px;
 }
+
 .box-empty {
     background: #FAFAFA;
     border: 2px solid #F8F0E3;
@@ -184,43 +185,56 @@ body {
     padding: 5px;
 }
 
-footer {
-    text-align: center;
-    background: #0B0D17;
-    width: 100%;
-    height: 120px;
+.about-area {
+    display: flex;
+    padding-left: 10%;
 }
 
-.footer h3 {
-    padding-top: 20px;
-    font-family: 'inter';
-    font-weight: 400;
-    font-size: 36px;
-    color: #FF5959;
+.about-area h2 {
+    font-size: 30px;
+    color: tomato;
 }
 
-.footer p {
-    color: white;
-    padding-bottom: 20px;
+.about-area p {
+    font-size: 20px;
+    color: black;
+    font-weight: 100;
 }
 
-.footer a {
-    text-decoration: none;
-    color: white;
+.about-area div {
+    height: 80%;
+}
+
+.half-width {
+    width: 600px;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: -10%;
+    padding-bottom: 5%;
+}
+
+#child {
+    text-align: justify;
+}
+
+#donation-camp {
+    text-align: justify;
 }
 
 .news {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .news-top {
     text-align: center;
     text-decoration: none;
 }
+
 .news-top p {
     color: #707070;
     font-size: 16px;
 }
+
 .container-news {
     display: flex;
     justify-content: center;
@@ -240,6 +254,7 @@ footer {
     padding: 9px 40px;
 
 }
+
 #subscribe {
     font-size: 16px;
     font-weight: 600;
@@ -248,4 +263,29 @@ footer {
     background: #FF5959;
     border-radius: 0px 5px 5px 0px;
     padding: 10px 10px;
+}
+
+footer {
+    text-align: center;
+    background: #0B0D17;
+    width: 100%;
+    height: 120px;
+}
+
+.footer h3 {
+    padding-top: 20px;
+    font-family: 'inter';
+    font-weight: 100;
+    font-size: 26px;
+    color: #FF5959;
+}
+
+.footer p {
+    color: white;
+    padding-bottom: 18px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
 }
